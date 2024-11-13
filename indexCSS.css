@@ -1,5 +1,3 @@
-
-/*ESTILO GERAL*/
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +41,6 @@ h2.titulo span{
     transform: scale(1.05);
  }
 
-/*ESTILO DO MENU (CABEÇALHO)*/
 header{
     padding: 40px 4%;/* px é altura e a porcentagem é a largura */
     
@@ -84,9 +81,7 @@ header nav ul li{
     box-shadow: 0px 0px 8px #473d8baf;
     transform: scale(1.05);
 }
-/*FIM DO MENU(CABEÇALHO)*/
 
-/*ESTILO DO TOPO DO SITE */
 section.topo-do-site{
     padding: 40px 4%;
    
@@ -99,7 +94,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: #fff;
     font-size: 34px;
-    gap: 90px; /*espaçamento entre os elementos (tipo um suspiro entre eles )*/
+    gap: 90px; 
     line-height: 20x
 } 
 
@@ -117,12 +112,12 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-topo-site img{
     position: relative;
-    animation: flutuar 1s ease-in-out infinite alternate; /*configuração da animação de flutuar da imagem*/
+    animation: flutuar 1s ease-in-out infinite alternate;
     filter: drop-shadow(1px 1px 20px rgb(243, 136, 243));
 }
 
 
-@keyframes flutuar{/*animação de flutuar da imagem*/
+@keyframes flutuar{
     0%{
         top:0;
     }
@@ -130,7 +125,7 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
-/*ESTILO DOS TIPOS*/
+
 section.tipos{
     padding: 40px 4%;
     
@@ -163,7 +158,7 @@ section.tipos .flex {
     
 }
 
-/*ESTILO SOBRE*/
+
 
 section.sobre{
     padding: 40px 4%;
@@ -218,7 +213,7 @@ section.inovacao .flex {
 
 .inovacao  h2{
     font-size: 40px;
-    gap: 90px; /*espaçamento entre os elementos (tipo um suspiro entre eles )*/
+    gap: 90px; 
     line-height: 20x
 }
 .inovacao h2 span{
@@ -236,14 +231,14 @@ section.inovacao .flex {
 
 .inovacao .img-inovacao img{
     position: relative;
-    animation: flutuar 1s ease-in-out infinite alternate; /*configuração da animação de flutuar da imagem*/
+    animation: flutuar 1s ease-in-out infinite alternate; 
     filter: drop-shadow(1px 1px 20px rgb(243, 136, 243));
 }
 .inovacao .img-inovacao{
     padding: 15px;
 }
 
-/*ESTILO CRIADOR*/
+
 
 section.criadores{
     padding: 40px 4%;
@@ -252,15 +247,13 @@ section.criadores{
 section.criadores h2{
     color: #fff;
     margin-top: 30px;
-    gap: 90px; /*espaçamento entre os elementos (tipo um suspiro entre eles )*/
+    gap: 90px; 
     line-height: 40x
 }
 
 section.criadores .flex{
     justify-content: space-around;
     margin-top: 40px;
-
-
 }
 .criadores .interface .titulo h2{
     color: #A020F0; 
